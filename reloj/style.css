@@ -1,4 +1,26 @@
-* {
+*
+        }
+
+        /* Establece el ancho máximo para evitar que el contenido se estire demasiado en pantallas grandes. */
+        max-width: 1200px;
+        margin: 0 auto; /* Centra el contenido en la página */
+    }
+
+    /* Agrega estilos específicos para pantallas más pequeñas usando @media queries */
+    @media (max-width: 768px) {
+        /* Estilos para pantallas de hasta 768px de ancho */
+        body {
+            font-size: 16px;
+        }
+    }
+
+    /* Estilos para pantallas más grandes */
+    @media (min-width: 1200px) {
+        body {
+            font-size: 20px;
+        }
+    }
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
