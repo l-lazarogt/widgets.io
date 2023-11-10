@@ -1,52 +1,34 @@
-*
-        }
-
-        /* Establece el ancho máximo para evitar que el contenido se estire demasiado en pantallas grandes. */
-        max-width: 1200px;
-        margin: 0 auto; /* Centra el contenido en la página */
-    }
-
-    /* Agrega estilos específicos para pantallas más pequeñas usando @media queries */
-    @media (max-width: 768px) {
-        /* Estilos para pantallas de hasta 768px de ancho */
-        body {
-            font-size: 16px;
-        }
-    }
-
-    /* Estilos para pantallas más grandes */
-    @media (min-width: 1200px) {
-        body {
-            font-size: 20px;
-        }
-    }
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'consolas';
+body {
+    background-color: #000099;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'consolas';
 }
 
 section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: #0f24f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #0f24f9; /* Este color es para el fondo del section, ajusta según necesites */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clock {
-  position: relative;
-  width: 700px;
-  height: 250px;
-  background: rgba(255, 255, 255, 0.05);
-  z-index: 1000;
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
+    position: relative;
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 1000;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
 }
+
+/* Resto de tu código... */
+
 
 .clock .container {
   display: flex;
@@ -82,7 +64,7 @@ section {
   font-weight: 700;
 }
 body {
-    background-color: blue;
+    background-color: #000099;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -93,10 +75,21 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #0f24f9;
+    background: #0f24f9; /* Este color es para el fondo del section, ajusta según necesites */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.clock {
+    position: relative;
+    width: 700px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 1000;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
 }
 
 /* Resto de tu código... */
