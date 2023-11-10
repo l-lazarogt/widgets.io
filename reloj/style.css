@@ -10,7 +10,7 @@ section {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #0f24f9; /* Este color es para el fondo del section, ajusta según necesites */
+    background: #000099; /* Este color es para el fondo del section, ajusta según necesites */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,9 @@ section {
 
 .clock {
     position: relative;
-    width: 700px;
-    height: 250px;
+    width: 80%; /* Utiliza porcentajes para hacerlo más adaptable */
+    max-width: 700px; /* Establece un ancho máximo para evitar que se expanda demasiado en pantallas grandes */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el contenido */
     background: rgba(255, 255, 255, 0.05);
     z-index: 1000;
     border-radius: 20px;
@@ -63,33 +64,3 @@ section {
   color: white;
   font-weight: 700;
 }
-body {
-    background-color: #000099;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'consolas';
-}
-
-section {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: #0f24f9; /* Este color es para el fondo del section, ajusta según necesites */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.clock {
-    position: relative;
-    width: 700px;
-    height: 250px;
-    background: rgba(255, 255, 255, 0.05);
-    z-index: 1000;
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(20px);
-}
-
-/* Resto de tu código... */
